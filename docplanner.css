@@ -1,0 +1,526 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.logo{
+    float: left;
+    color: #00b39b;
+}
+.navbar {
+    overflow: hidden;
+}
+.navbar a {
+    color: gray;
+    float:right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: #00b39b;
+}
+.dropdown {
+    float:right;
+    overflow: hidden;
+    margin-right: 150px;
+}
+.dropdown .dropbtn {
+    cursor: pointer; 
+    color: gray;
+    padding: 14px 16px; 
+    background-color: inherit; 
+    border: none; 
+    outline: none; 
+    font-size: 16px; 
+    margin: 0;
+}
+.dropdown-list {
+    display:none; 
+    position:absolute; 
+    min-width: 160px; 
+    z-index: 1; 
+}
+.dropdown-list a {
+    float: none; 
+    color: gray; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    text-align: left; 
+}
+.dropdown-list a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-list {
+    display: block; 
+}
+img{
+    height: 25px; 
+    width: 25px;
+    margin-left: 150px;
+}
+.photo{
+    height: 40px; 
+    width: 40px;  
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+}
+.titre h1{
+    text-align: center;
+    margin-top: 30px;
+    font-family:Work Sans, Arial, sans-serif;
+    margin: 1em 0;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    font-size: 40px;
+    color: #00b39b;
+    border: none;
+}
+.gauche{
+    height: 0.1px;
+    width: 35%;
+    margin-left: 170px;
+    font-family:Work Sans, Arial, sans-serif;
+    color: #747474;
+}
+.droite{
+    width: 35%;
+    float: right; 
+    margin-right: 170px;
+    font-family:Work Sans, Arial, sans-serif;
+    color: #747474;
+}
+.patients{
+    background-color: #00b39b;
+    width: 20.50%;
+    height: 300px;
+    margin-left: 170px;
+    margin-top: 150px;
+    border-radius: 20px;
+    float:left;
+}
+.doctors{
+    background-color: #3d83df;
+    float: left;
+    width: 20.50%;
+    height: 300px;
+    margin-left: 70px;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+.clinics{
+    background-color: #1b2734;
+    float:right;
+    width: 20.50%;
+    height: 300px;
+    margin-right: 200px;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+.imgsld{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.intoslide p {
+    margin-left: 30px;
+    font-size: 30px;
+    font-family:Work Sans, Arial, sans-serif;
+    color: white;
+}
+.intoslide h1{
+    margin-left: 30px;  
+    font-family:Work Sans, Arial, sans-serif;
+    color: white;
+}
+.companytitle h4{
+    position: absolute;
+    transform: translate(50%,560px);
+    color: #00b39b;
+    font-size: 30px;
+    font-family:Work Sans, Arial, sans-serif;
+    width: 300px;
+    margin-left: 20px;
+}
+.companyname{
+    position: absolute;
+    transform: translate(40%,560px);
+}
+.companyname img{
+    width: 70px;
+}
+.statistique {
+    position: absolute;
+    transform: translate(0,135%);
+    background-color: #b9ebe8 ;
+    height: 90%;
+    width: 100%;
+}
+.statgauche header{
+    position: absolute;
+    transform: translate(200px,50px);
+    width: 300px;
+    height: 50px;
+}
+footer{
+    position: absolute;
+    transform: translate(-90px,200px);
+}
+footer img{
+    width: 450px;
+    height: 345px;
+}
+.Leader{
+    position: absolute;
+    transform: translate(700px,35px);
+    width: 210px;
+    height: 230px;
+    background-color: white;
+    border-radius: 10px;
+}
+.appointments{
+    position: absolute;
+    transform: translate(950px,15px);
+    width: 210px;
+    height: 230px;
+    background-color: white;
+    border-radius: 10px;
+}
+.activedoc{
+    position: absolute;
+    transform: translate(950px,285px);
+    width: 210px;
+    height: 230px;
+    background-color: white;
+    border-radius: 10px;
+}
+.visiteur{
+    position: absolute;
+    transform: translate(700px,300px);
+    width: 210px;
+    height: 230px;
+    background-color: white;
+    border-radius: 10px;
+}
+.statdroite img{
+    position: absolute;
+    right: 50%;
+    transform: translate(0px,25px);
+}
+.statdroite h1{
+    position: absolute;
+    transform: translate(30px,55px);
+    color: #00b39b;
+}
+.statdroite p{
+    position: absolute;
+    align-items: center;
+    top: 120px;
+    left: 10px;
+    color: gray;
+}
+.improve{
+    position: absolute;
+    text-align: center;
+    top: 1600px;
+    left: 32%;
+}
+.improve h1{
+    color:#00b39b ;
+    padding-bottom: 10px;
+}
+.improve p{
+    color: gray;
+    padding-bottom: 5px;
+}
+.pictur{
+    position: absolute;
+    top: 1900px;
+
+}
+.warsaw img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+.warsaw h1{
+    position: absolute;
+    left: 180px;
+    top: 275px;
+    color: gray;
+}
+.warsaw button{
+    position: absolute;
+    transform: translate(-120px,275px);
+    background-color: #3d83df;
+    height:30px ;
+    width:100px ;
+    border-radius: 10px;
+    border: none;
+}
+.barcelona img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    transform: translate(350px,-254px);
+}
+.barcelona h1{
+    position: absolute;
+    left: 530px;
+    top: 275px;
+    color: gray;
+}
+.barcelona button{
+    position: absolute;
+    transform: translate(230px,20px);
+    background-color: #3d83df;
+    height:30px ;
+    width:100px ;
+    border-radius: 10px;
+    border: none;
+}
+.munich img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    transform: translate(700px,-507px);
+}
+.munich h1{
+    position: absolute;
+    left: 880px;
+    top: 275px;
+    color: gray;
+} 
+.munich  button{
+    position: absolute;
+    transform: translate(580px,-233px);
+    background-color: #3d83df;
+    height:30px ;
+    width:100px ;
+    border-radius: 10px;
+    border: none;
+}
+.istanbul img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    transform: translate(0px,-0px);
+}
+.istanbul h1{
+    position: absolute;
+    left: 180px;
+    top: 270px;
+    color: gray;
+}
+.istanbul button{
+    position: absolute;
+    transform: translate(-120px,270px);
+    background-color: #3d83df;
+    height:30px ;
+    width:100px ;
+    border-radius: 10px;
+    border: none;
+}
+.rome img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    transform: translate(350px,-254px);
+}
+.rome h1{
+    position: absolute;
+    left: 530px;
+    top: 270px;
+    color: gray;
+}
+.rome button{
+    position: absolute;
+    transform: translate(230px,15px);
+    background-color: #3d83df;
+    height:30px ;
+    width:100px ;
+    border-radius: 10px;
+    border: none;
+}
+.Bologna img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    transform: translate(700px,-508px);
+}
+.Bologna h1{
+    position: absolute;
+    left: 880px;
+    top: 270px;
+    color: gray;
+}
+.Bologna button{
+    position: absolute;
+    transform: translate(580px,-240px);
+    background-color: #3d83df;
+    height:30px ;
+    width:100px ;
+    border-radius: 10px;
+    border: none;
+}
+.curitiba img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    transform: translate(0px,-0px);
+}
+.curitiba h1{
+    position: absolute;
+    left: 180px;
+    top: 270px;
+    color: gray;
+}
+.curitiba button{
+    position: absolute;
+    transform: translate(-120px,270px);
+    background-color: #3d83df;
+    height:30px ;
+    width:100px ;
+    border-radius: 10px;
+    border: none;
+}
+.rio img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    transform: translate(350px,-254px);
+}
+.rio h1{
+    position: absolute;
+    left: 530px;
+    top: 270px;
+    color: gray;
+}
+.rio button{
+    position: absolute;
+    transform: translate(230px,16px);
+    background-color: #3d83df;
+    height:30px ;
+    width:100px ;
+    border-radius: 10px;
+    border: none;
+}
+.mexico img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    transform: translate(700px,-508px);
+}
+.mexico h1{
+    position: absolute;
+    left: 880px;
+    top: 270px;
+    color: gray;
+}
+.mexico button{
+    position: absolute;
+    transform: translate(580px,-238px);
+    background-color: #3d83df;
+    height:30px ;
+    width:100px ;
+    border-radius: 10px;
+    border: none;
+}
+.bogota img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    transform: translate(2px,0px);
+}
+.bogota h1{
+    position: absolute;
+    left: 180px;
+    top: 270px;
+    color: gray;
+}
+.bogota button{
+    position: absolute;
+    transform: translate(-120px,270px);
+    background-color: #3d83df;
+    height:30px ;
+    width:100px ;
+    border-radius: 10px;
+    border: none;   
+}
+.amsterdam img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    transform: translate(350px,-254px);
+}
+.amsterdam h1{
+    position: absolute;
+    left: 530px;
+    top: 270px;
+    color: gray;
+}
+.amsterdam button{
+    position: absolute;
+    transform: translate(230px,15px);
+    background-color: #3d83df;
+    height:30px ;
+    width:100px ;
+    border-radius: 10px;
+    border: none; 
+}
+
+.join{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 550%;
+}
+.soujoin{
+    position: absolute;
+    text-align: center;
+    right: 27%;
+    top:110px;
+    font-family: Work Sans, Arial, sans-serif;
+    font-size: 25px;
+}
+.soujoin h1{
+    color: gray;
+}
+.soujoin button{
+    background-color: #3d83df;
+    height:30px ;
+    width:200px ;
+    border-radius: 5px;
+    border: none; 
+}
+.foot{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 600%;
+}
+.soufoot p{
+    position: absolute;
+    text-align: center;
+    transform: translate(180px,20px);
+}
+.ligne01{
+    transform: translate(0px,20px);
+    height: 320px;
+    width: 299%;
+}
+.ligne02{
+    height: 320px;
+    width: 299%;
+    transform: translate(0px,30px);
+}
+.ligne03{
+    height: 320px;
+    width: 299%;
+    transform: translate(0px,30px);
+}
+.ligne04{
+    height: 320px;
+    width: 299%;
+    transform: translate(0px,30px);
+}
